@@ -1,15 +1,15 @@
-# RubiniMart: Enterprise-Grade E-Commerce Platform with Modular AI Shopping Assistant
+# reshmamart: Enterprise-Grade E-Commerce Platform with Modular AI Shopping Assistant
 
 **Anna University R2025 Regulations — Semester 3 Capstone Project Final Report**  
-**Student Name:** Rubini | **Package:** `com.rubinimart` | **Evaluation Window:** Jul 27 – Oct 10, 2026  
-**Live Production URL:** [https://rubinimart.onrender.com](https://rubinimart.onrender.com)  
-**Repository:** [https://github.com/Rubiniponnar/RubiniMart](https://github.com/Rubiniponnar/RubiniMart)  
+**Student Name:** Rubini | **Package:** `com.reshmamart` | **Evaluation Window:** Jul 27 – Oct 10, 2026  
+**Live Production URL:** [https://reshmamart.onrender.com](https://reshmamart.onrender.com)  
+**Repository:** [https://github.com/Rubiniponnar/reshmamart](https://github.com/Rubiniponnar/reshmamart)  
 
 ---
 
 ## 1. Executive Summary & Problem Statement
 
-Modern e-commerce systems require high reliability, bulletproof transactional integrity, robust defense-in-depth security, and intuitive customer support. The goal of this capstone project is to engineer an enterprise-grade, full-stack multi-role e-commerce web platform—**RubiniMart**—strictly adhering to modern Java EE and software engineering standards.
+Modern e-commerce systems require high reliability, bulletproof transactional integrity, robust defense-in-depth security, and intuitive customer support. The goal of this capstone project is to engineer an enterprise-grade, full-stack multi-role e-commerce web platform—**reshmamart**—strictly adhering to modern Java EE and software engineering standards.
 
 ### Core Problems Addressed:
 1. **Multi-Role E-Commerce Isolation**: Providing discrete, role-enforced interfaces for **Buyers** (browsing, cart management, mock payment, tracking, reviewing), **Sellers** (inventory management, fulfillment tracking), and **Administrators** (user oversight, listing moderation, GMV tracking).
@@ -21,7 +21,7 @@ Modern e-commerce systems require high reliability, bulletproof transactional in
 
 ## 2. System Architecture & 3-Tier Layering
 
-RubiniMart adopts a strict **3-Tier MVC Architecture** that enforces clear separation of concerns across the codebase:
+reshmamart adopts a strict **3-Tier MVC Architecture** that enforces clear separation of concerns across the codebase:
 
 ```
 [ Client Browser / HTTP Request ]
@@ -66,7 +66,7 @@ The schema comprises 6 relational tables designed with third normal form (3NF) p
 - **`order_items`**: Immutable audit records capturing product ID, quantity, and historical unit price at the time of purchase.
 - **`reviews`**: Verified customer ratings (1 to 5 stars) and review comments.
 
-*Refer to the full Mermaid diagram in [`docs/D1_ER_DIAGRAM.md`](file:///C:/Users/acer/.gemini/antigravity/scratch/RubiniMart/docs/D1_ER_DIAGRAM.md).*
+*Refer to the full Mermaid diagram in [`docs/D1_ER_DIAGRAM.md`](file:///C:/Users/acer/.gemini/antigravity/scratch/reshmamart/docs/D1_ER_DIAGRAM.md).*
 
 ---
 
@@ -93,7 +93,7 @@ The checkout transaction coordinate (`OrderServiceImpl.placeOrder`) implements A
 5. **Cart Clearance**: Deletes all items from `cart_items` for the buyer.
 6. **Commit**: Executes `conn.commit()` and restores auto-commit.
 
-*Refer to the complete sequence diagram in [`docs/D3_SEQUENCE_DIAGRAM.md`](file:///C:/Users/acer/.gemini/antigravity/scratch/RubiniMart/docs/D3_SEQUENCE_DIAGRAM.md).*
+*Refer to the complete sequence diagram in [`docs/D3_SEQUENCE_DIAGRAM.md`](file:///C:/Users/acer/.gemini/antigravity/scratch/reshmamart/docs/D3_SEQUENCE_DIAGRAM.md).*
 
 ---
 
@@ -102,10 +102,10 @@ The checkout transaction coordinate (`OrderServiceImpl.placeOrder`) implements A
 The AI assistant provides real-time customer support:
 - **Sliding-Window Rate Limiter**: Strictly enforces maximum 10 inquiries per minute per user session.
 - **In-Memory Question Cache**: Caches identical questions within a user session to prevent redundant processing.
-- **Domain Guardrails**: System instructions ground answers to the 28 RubiniMart products, Indian Rupee (`₹`) pricing, delivery within 2–4 business days, and 7-day return policy.
+- **Domain Guardrails**: System instructions ground answers to the 28 reshmamart products, Indian Rupee (`₹`) pricing, delivery within 2–4 business days, and 7-day return policy.
 - **Graceful Fallback**: If network partitions or quota limits occur, automatically degrades to `MockChatProvider` with zero interruption to the user experience.
 
-*Refer to the complete sequence diagram in [`docs/D4_CHATBOT_SEQUENCE_DIAGRAM.md`](file:///C:/Users/acer/.gemini/antigravity/scratch/RubiniMart/docs/D4_CHATBOT_SEQUENCE_DIAGRAM.md).*
+*Refer to the complete sequence diagram in [`docs/D4_CHATBOT_SEQUENCE_DIAGRAM.md`](file:///C:/Users/acer/.gemini/antigravity/scratch/reshmamart/docs/D4_CHATBOT_SEQUENCE_DIAGRAM.md).*
 
 ---
 
@@ -138,4 +138,4 @@ The AI assistant provides real-time customer support:
 
 ## 10. Conclusion
 
-RubiniMart successfully delivers all required deliverables from Kickoff through Week 11 for the Anna University R2025 Semester 3 curriculum. The platform is fully operational, publicly accessible, secure, and resilient.
+reshmamart successfully delivers all required deliverables from Kickoff through Week 11 for the Anna University R2025 Semester 3 curriculum. The platform is fully operational, publicly accessible, secure, and resilient.

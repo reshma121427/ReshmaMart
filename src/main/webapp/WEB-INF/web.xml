@@ -6,17 +6,17 @@
          version="4.0"
          metadata-complete="false">
 
-    <display-name>RubiniMart</display-name>
+    <display-name>reshmamart</display-name>
 
     <!-- Context Listener: HikariCP & DB Migration Lifecycle -->
     <listener>
-        <listener-class>com.rubinimart.listener.AppContextListener</listener-class>
+        <listener-class>com.reshmamart.listener.AppContextListener</listener-class>
     </listener>
 
     <!-- Filters -->
     <filter>
         <filter-name>EncodingFilter</filter-name>
-        <filter-class>com.rubinimart.filter.EncodingFilter</filter-class>
+        <filter-class>com.reshmamart.filter.EncodingFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>EncodingFilter</filter-name>
@@ -25,7 +25,7 @@
 
     <filter>
         <filter-name>CORSFilter</filter-name>
-        <filter-class>com.rubinimart.filter.CORSFilter</filter-class>
+        <filter-class>com.reshmamart.filter.CORSFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>CORSFilter</filter-name>
@@ -34,7 +34,7 @@
 
     <filter>
         <filter-name>AuthFilter</filter-name>
-        <filter-class>com.rubinimart.filter.AuthFilter</filter-class>
+        <filter-class>com.reshmamart.filter.AuthFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>AuthFilter</filter-name>
@@ -44,7 +44,7 @@
     <!-- Servlets -->
     <servlet>
         <servlet-name>HealthServlet</servlet-name>
-        <servlet-class>com.rubinimart.controller.HealthServlet</servlet-class>
+        <servlet-class>com.reshmamart.controller.HealthServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HealthServlet</servlet-name>
@@ -53,7 +53,7 @@
 
     <servlet>
         <servlet-name>ChatServlet</servlet-name>
-        <servlet-class>com.rubinimart.controller.ChatServlet</servlet-class>
+        <servlet-class>com.reshmamart.controller.ChatServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ChatServlet</servlet-name>
@@ -63,7 +63,7 @@
 
     <servlet>
         <servlet-name>ApiServlet</servlet-name>
-        <servlet-class>com.rubinimart.controller.ApiServlet</servlet-class>
+        <servlet-class>com.reshmamart.controller.ApiServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ApiServlet</servlet-name>
@@ -75,7 +75,7 @@
 
     <servlet>
         <servlet-name>AuthServlet</servlet-name>
-        <servlet-class>com.rubinimart.controller.AuthServlet</servlet-class>
+        <servlet-class>com.reshmamart.controller.AuthServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>AuthServlet</servlet-name>
@@ -87,7 +87,7 @@
 
     <servlet>
         <servlet-name>ProductServlet</servlet-name>
-        <servlet-class>com.rubinimart.controller.ProductServlet</servlet-class>
+        <servlet-class>com.reshmamart.controller.ProductServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ProductServlet</servlet-name>
@@ -97,7 +97,7 @@
 
     <servlet>
         <servlet-name>CartServlet</servlet-name>
-        <servlet-class>com.rubinimart.controller.CartServlet</servlet-class>
+        <servlet-class>com.reshmamart.controller.CartServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>CartServlet</servlet-name>
@@ -107,7 +107,7 @@
 
     <servlet>
         <servlet-name>CheckoutServlet</servlet-name>
-        <servlet-class>com.rubinimart.controller.CheckoutServlet</servlet-class>
+        <servlet-class>com.reshmamart.controller.CheckoutServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>CheckoutServlet</servlet-name>
@@ -116,7 +116,7 @@
 
     <servlet>
         <servlet-name>OrderServlet</servlet-name>
-        <servlet-class>com.rubinimart.controller.OrderServlet</servlet-class>
+        <servlet-class>com.reshmamart.controller.OrderServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>OrderServlet</servlet-name>
@@ -126,7 +126,7 @@
 
     <servlet>
         <servlet-name>SellerServlet</servlet-name>
-        <servlet-class>com.rubinimart.controller.SellerServlet</servlet-class>
+        <servlet-class>com.reshmamart.controller.SellerServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SellerServlet</servlet-name>
@@ -135,7 +135,7 @@
 
     <servlet>
         <servlet-name>AdminServlet</servlet-name>
-        <servlet-class>com.rubinimart.controller.AdminServlet</servlet-class>
+        <servlet-class>com.reshmamart.controller.AdminServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>AdminServlet</servlet-name>
@@ -144,7 +144,7 @@
 
     <servlet>
         <servlet-name>ReviewServlet</servlet-name>
-        <servlet-class>com.rubinimart.controller.ReviewServlet</servlet-class>
+        <servlet-class>com.reshmamart.controller.ReviewServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ReviewServlet</servlet-name>

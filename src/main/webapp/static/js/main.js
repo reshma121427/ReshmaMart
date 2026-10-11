@@ -1,4 +1,4 @@
-// RubiniMart Client JavaScript Helper
+// reshmamart Client JavaScript Helper
 document.addEventListener('DOMContentLoaded', () => {
     // Auto-dismiss alerts after 5 seconds
     const alerts = document.querySelectorAll('.alert');
@@ -16,7 +16,7 @@ function confirmAction(message) {
 }
 
 // ===================================================================
-// RubiniMart AI Chatbot Controller (Section 11 / Phase 3)
+// reshmamart AI Chatbot Controller (Section 11 / Phase 3)
 // ===================================================================
 document.addEventListener('DOMContentLoaded', () => {
     const launcherBtn = document.getElementById('chat-launcher-btn');

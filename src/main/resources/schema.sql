@@ -1,4 +1,4 @@
--- RubiniMart Database Schema v1
+-- reshmamart Database Schema v1
 -- Standards: DECIMAL(10,2) for money, UNIQUE on email, FK indexes, created_at on every table
 
 CREATE TABLE IF NOT EXISTS users (

@@ -1,7 +1,7 @@
-# D1: RubiniMart Entity-Relationship Diagram (ERD)
+# D1: reshmamart Entity-Relationship Diagram (ERD)
 
 ## Database Architecture Overview
-The **RubiniMart** relational schema is implemented on **H2 Database** (v2.2.x) in persistent file mode (`jdbc:h2:file:./data/rubinimart`). It comprises 6 normalized relational entities engineered with:
+The **reshmamart** relational schema is implemented on **H2 Database** (v2.2.x) in persistent file mode (`jdbc:h2:file:./data/reshmamart`). It comprises 6 normalized relational entities engineered with:
 - Strict primary key (`id BIGINT AUTO_INCREMENT PRIMARY KEY`) design.
 - `DECIMAL(10,2)` representation for currency values to eliminate floating-point rounding errors.
 - Foreign key constraints with cascading or restricting integrity rules.

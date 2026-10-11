@@ -7,7 +7,7 @@
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
     <div>
         <h2>System Administration Dashboard</h2>
-        <p style="color: var(--text-muted);">Overview of RubiniMart platform metrics and operations</p>
+        <p style="color: var(--text-muted);">Overview of ReshmaMart platform metrics and operations</p>
     </div>
 </div>
 

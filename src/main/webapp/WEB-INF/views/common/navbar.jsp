@@ -5,13 +5,13 @@
 <header class="navbar">
     <div class="navbar-container">
         <a href="${pageContext.request.contextPath}/products" class="brand">
-            🛒 <span>RubiniMart</span>
+            🛒 <span>ReshmaMart</span>
         </a>
         <nav>
             <ul class="nav-links">
                 <li><a href="${pageContext.request.contextPath}/products">Browse</a></li>
                 <li>
-                    <a href="javascript:void(0)" onclick="if(window.openRubiniChat)window.openRubiniChat();" style="display: inline-flex; align-items: center; gap: 0.35rem; font-weight: 600; color: var(--primary);">
+                    <a href="javascript:void(0)" onclick="if(window.openReshmaChat)window.openReshmaChat();" style="display: inline-flex; align-items: center; gap: 0.35rem; font-weight: 600; color: var(--primary);">
                         🤖 AI Assistant
                     </a>
                 </li>

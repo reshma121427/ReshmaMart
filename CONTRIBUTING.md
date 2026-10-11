@@ -1,6 +1,6 @@
-# Contributing to RubiniMart
+# Contributing to reshmamart
 
-Thank you for contributing to the **RubiniMart** Capstone E-Commerce platform! This guide provides the step-by-step developer onboarding process from cloning to running and contributing code.
+Thank you for contributing to the **reshmamart** Capstone E-Commerce platform! This guide provides the step-by-step developer onboarding process from cloning to running and contributing code.
 
 ---
 
@@ -25,8 +25,8 @@ git --version
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/Rubiniponnar/RubiniMart.git
-cd RubiniMart
+git clone https://github.com/Rubiniponnar/reshmamart.git
+cd reshmamart
 ```
 
 ### Step 2: Environment Configuration

@@ -1,7 +1,7 @@
-# RubiniMart — D2 Use Case Diagram & Specification
+# reshmamart — D2 Use Case Diagram & Specification
 
 ## Overview
-This document specifies the Use Cases (F1 through F8 + O2 + O4) for **RubiniMart**, mapping all core business requirements to the corresponding system actors: **Visitor**, **Buyer**, **Seller**, **Admin**, and **AI Chatbot**.
+This document specifies the Use Cases (F1 through F8 + O2 + O4) for **reshmamart**, mapping all core business requirements to the corresponding system actors: **Visitor**, **Buyer**, **Seller**, **Admin**, and **AI Chatbot**.
 
 ---
 
@@ -15,7 +15,7 @@ flowchart LR
     Admin((Admin))
     Bot((AI Assistant))
 
-    subgraph RubiniMart Platform
+    subgraph reshmamart Platform
         UC1["F1: User Authentication & Role Management"]
         UC2["F2: Manage Product Listings"]
         UC3["F3: Browse, Search & Filter Catalog"]

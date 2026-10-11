@@ -1,14 +1,14 @@
-# RubiniMart — 5-Minute Rehearsed Live Demo Script
+# reshmamart — 5-Minute Rehearsed Live Demo Script
 
 **Anna University R2025 Semester 3 Capstone Evaluation**  
 **Evaluation Target:** Full Project Demonstration (Kickoff to Final Review)  
-**Live Cloud URL:** [https://rubinimart.onrender.com](https://rubinimart.onrender.com)  
+**Live Cloud URL:** [https://reshmamart.onrender.com](https://reshmamart.onrender.com)  
 
 ---
 
 ## Pre-Demo Checklist
-- [ ] Open browser tab: [https://rubinimart.onrender.com](https://rubinimart.onrender.com)
-- [ ] Open second browser tab: [https://rubinimart.onrender.com/api/v1/health](https://rubinimart.onrender.com/api/v1/health) (confirm `{"status":"UP","db":"UP"}`)
+- [ ] Open browser tab: [https://reshmamart.onrender.com](https://reshmamart.onrender.com)
+- [ ] Open second browser tab: [https://reshmamart.onrender.com/api/v1/health](https://reshmamart.onrender.com/api/v1/health) (confirm `{"status":"UP","db":"UP"}`)
 - [ ] Prepare demo credentials cheat sheet.
 
 ---
@@ -17,7 +17,7 @@
 
 ### Minute 0:00 – 1:00: Platform Architecture & Catalog Browsing (Visitor)
 1. **Introduction**:
-   - *"Welcome to RubiniMart, a multi-role e-commerce platform built on Java 17 and Tomcat 9, deployed live on Render."*
+   - *"Welcome to reshmamart, a multi-role e-commerce platform built on Java 17 and Tomcat 9, deployed live on Render."*
 2. **Catalog Browsing**:
    - Point out the 28 products displayed with prices in Indian Rupees (**₹**).
    - Click on the **Electronics** category filter &rarr; verify filtered view.
@@ -83,4 +83,4 @@
 ---
 
 ## Conclusion
-*"RubiniMart fulfills every functional requirement (F1–F8), operational extensions (O2, O4), security standards (Section 9), and deployment benchmarks across the 11-week Anna University R2025 curriculum. Thank you!"*
+*"reshmamart fulfills every functional requirement (F1–F8), operational extensions (O2, O4), security standards (Section 9), and deployment benchmarks across the 11-week Anna University R2025 curriculum. Thank you!"*

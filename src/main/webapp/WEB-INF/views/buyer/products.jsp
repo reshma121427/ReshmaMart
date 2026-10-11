@@ -9,11 +9,11 @@
     <div style="display: flex; align-items: center; gap: 0.85rem;">
         <span style="font-size: 2.2rem; line-height: 1;">🤖</span>
         <div>
-            <strong style="color: var(--primary); font-size: 1.05rem; display: block; margin-bottom: 0.2rem;">RubiniMart AI Shopping Assistant</strong>
+            <strong style="color: var(--primary); font-size: 1.05rem; display: block; margin-bottom: 0.2rem;">ReshmaMart AI Shopping Assistant</strong>
             <span style="color: var(--text-muted); font-size: 0.88rem;">Need product recommendations in ₹, delivery timelines, or order tracking help?</span>
         </div>
     </div>
-    <button type="button" onclick="if(window.openRubiniChat)window.openRubiniChat();" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.4rem; font-weight: 600; padding: 0.55rem 1.1rem; border-radius: 8px;">
+    <button type="button" onclick="if(window.openReshmaChat)window.openReshmaChat();" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.4rem; font-weight: 600; padding: 0.55rem 1.1rem; border-radius: 8px;">
         💬 Chat with AI Assistant
     </button>
 </div>

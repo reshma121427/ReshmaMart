@@ -1,4 +1,4 @@
-# RubiniMart — Manual End-to-End Test Cases
+# reshmamart — Manual End-to-End Test Cases
 
 This document details the step-by-step manual test cases covering the complete customer and merchant journey (**Register → Browse → Cart → Order → Fulfillment → Review**).
 

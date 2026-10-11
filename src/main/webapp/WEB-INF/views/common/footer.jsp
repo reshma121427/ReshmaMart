@@ -7,7 +7,7 @@
 <jsp:include page="/WEB-INF/views/common/chat-widget.jsp" />
 
 <footer>
-    <p>&copy; 2026 RubiniMart Capstone E-Commerce Platform. Built for Anna University R2025.</p>
+    <p>&copy; 2026 ReshmaMart Capstone E-Commerce Platform. Built for Anna University R2025.</p>
     <p style="font-size: 0.8rem; margin-top: 0.25rem;">Java Servlets · JDBC · Apache Tomcat 9.0.x · H2 Database</p>
 </footer>
 

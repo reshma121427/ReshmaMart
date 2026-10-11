@@ -1,4 +1,4 @@
-# RubiniMart — Security Compliance Checklist (Section 9 Audit)
+# reshmamart — Security Compliance Checklist (Section 9 Audit)
 
 This document tracks the systematic verification of every security control required by Section 9 of the Capstone specification for the **September 21 Full Build + Deploy Checkpoint**.
 

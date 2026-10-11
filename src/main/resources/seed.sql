@@ -1,4 +1,4 @@
--- RubiniMart Seed Data (v1.0 - INR Pricing & Expanded Catalog)
+-- reshmamart Seed Data (v1.0 - INR Pricing & Expanded Catalog)
 -- Passwords:
 -- Admin: admin@mart.com / Admin@123
 -- Sellers: techseller@mart.com, fashionhub@mart.com / Seller@123
@@ -11,7 +11,7 @@ INSERT INTO users (id, name, email, password_hash, role) VALUES
 (3, 'StyleCraft Lifestyle', 'fashionhub@mart.com', '$2a$12$hrl37Xwf3jf.A2I4xscHO.nlGj4U3tFzHd4fVWtfyEagxeW7idmCC', 'SELLER'),
 (4, 'John Buyer', 'john.buyer@mart.com', '$2a$12$/ppH/6MdqRkcUO1AnSEYdeU94twRIO7DLyfdgEsEsd9r.wOdFPSCC', 'BUYER'),
 (5, 'Alice Smith', 'alice.buyer@mart.com', '$2a$12$/ppH/6MdqRkcUO1AnSEYdeU94twRIO7DLyfdgEsEsd9r.wOdFPSCC', 'BUYER'),
-(6, 'RubiniMart Admin', 'admin@rubinimart.com', '$2a$12$TA8fek5qjgsBgJvjSwvlkOVQiGock98kZ89UtQY4V.tXI/p0JvP5S', 'ADMIN');
+(6, 'reshmamart Admin', 'admin@reshmamart.com', '$2a$12$TA8fek5qjgsBgJvjSwvlkOVQiGock98kZ89UtQY4V.tXI/p0JvP5S', 'ADMIN');
 
 -- 2. Seed Products (Indian Rupee INR Pricing)
 INSERT INTO products (id, seller_id, name, description, price, stock_qty, category, image_url, is_active) VALUES

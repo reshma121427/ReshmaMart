@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.rubinimart</groupId>
-    <artifactId>RubiniMart</artifactId>
+    <groupId>com.reshmamart</groupId>
+    <artifactId>reshmamart</artifactId>
     <version>1.0.0</version>
     <packaging>war</packaging>
 
-    <name>RubiniMart Capstone</name>
+    <name>ReshmaMart Capstone</name>
     <description>E-Commerce Platform Capstone Project - Anna University R2025 Semester 3</description>
 
     <properties>
@@ -108,7 +108,7 @@
     </dependencies>
 
     <build>
-        <finalName>RubiniMart</finalName>
+        <finalName>reshmamart</finalName>
         <plugins>
             <!-- Maven Compiler Plugin -->
             <plugin>
@@ -145,7 +145,17 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.1.1</version>
                 <configuration>
-                    <mainClass>com.rubinimart.runner.EmbeddedTomcatServer</mainClass>
+                    <mainClass>com.reshmamart.runner.EmbeddedTomcatServer</mainClass>
+                </configuration>
+            </plugin>
+
+            <!-- Spring Boot Maven Plugin for mvn spring-boot:run compatibility -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.7.18</version>
+                <configuration>
+                    <mainClass>com.reshmamart.runner.EmbeddedTomcatServer</mainClass>
                 </configuration>
             </plugin>
         </plugins>

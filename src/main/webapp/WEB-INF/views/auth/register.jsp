@@ -5,7 +5,7 @@
 <jsp:include page="/WEB-INF/views/common/header.jsp" />
 
 <div style="max-width: 480px; margin: 2rem auto; background: white; padding: 2rem; border-radius: var(--radius); box-shadow: var(--shadow); border: 1px solid var(--border-color);">
-    <h2 style="margin-bottom: 1.5rem; text-align: center;">Join RubiniMart</h2>
+    <h2 style="margin-bottom: 1.5rem; text-align: center;">Join ReshmaMart</h2>
 
     <form action="${pageContext.request.contextPath}/auth/register" method="POST">
         <div class="form-group">

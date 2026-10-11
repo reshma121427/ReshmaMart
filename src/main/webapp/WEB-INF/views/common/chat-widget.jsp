@@ -2,12 +2,12 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!-- ===================================================================
-     RubiniMart AI Chatbot Floating Widget (Section 11 / Phase 3)
+     reshmamart AI Chatbot Floating Widget (Section 11 / Phase 3)
      Self-contained Production Build — Deep Plum Theme
      =================================================================== -->
 <style>
 /* Scoped Self-Contained AI Chatbot Styles — Deep Plum Theme */
-#rubini-chat-widget {
+#reshma-chat-widget {
     position: fixed !important;
     bottom: 24px !important;
     right: 24px !important;
@@ -75,10 +75,10 @@
     box-shadow: 0 24px 48px rgba(53, 19, 52, 0.2), 0 0 0 1px rgba(81, 32, 79, 0.08) !important;
     flex-direction: column !important;
     overflow: hidden !important;
-    animation: rubiniChatFadeIn 0.22s ease-out !important;
+    animation: reshmaChatFadeIn 0.22s ease-out !important;
 }
 
-@keyframes rubiniChatFadeIn {
+@keyframes reshmaChatFadeIn {
     from { opacity: 0; transform: translateY(12px) scale(0.96); }
     to { opacity: 1; transform: translateY(0) scale(1); }
 }
@@ -301,9 +301,9 @@
 }
 </style>
 
-<div id="rubini-chat-widget">
+<div id="reshma-chat-widget">
     <!-- Floating Launcher Button -->
-    <button id="chat-launcher-btn" type="button" title="Chat with RubiniMart AI Assistant" aria-label="Open Chat Assistant" onclick="window.toggleRubiniChat()">
+    <button id="chat-launcher-btn" type="button" title="Chat with ReshmaMart AI Assistant" aria-label="Open Chat Assistant" onclick="window.toggleReshmaChat()">
         <span class="chat-launcher-icon">💬</span>
         <span class="chat-launcher-label">Ask AI</span>
         <span class="chat-launcher-badge">ONLINE</span>
@@ -316,7 +316,7 @@
             <div class="chat-modal-title">
                 <span class="chat-bot-avatar">🤖</span>
                 <div>
-                    <strong style="font-size: 0.98rem; display: block;">RubiniMart AI Assistant</strong>
+                    <strong style="font-size: 0.98rem; display: block;">ReshmaMart AI Assistant</strong>
                     <div class="chat-online-status">
                         <span class="status-dot"></span> Online &middot; Instant Help
                     </div>
@@ -324,7 +324,7 @@
             </div>
             <div class="chat-modal-actions">
                 <button type="button" id="chat-clear-btn" class="chat-icon-btn" title="Clear chat history" aria-label="Clear chat">🗑️</button>
-                <button type="button" id="chat-close-btn" class="chat-icon-btn" title="Close chat" aria-label="Close chat" onclick="window.closeRubiniChat()">✕</button>
+                <button type="button" id="chat-close-btn" class="chat-icon-btn" title="Close chat" aria-label="Close chat" onclick="window.closeReshmaChat()">✕</button>
             </div>
         </div>
 
@@ -341,7 +341,7 @@
         <div class="chat-messages" id="chat-messages">
             <div class="chat-message chat-message-bot">
                 <div class="chat-bubble">
-                    👋 Namaste! I am your <strong>RubiniMart AI Shopping Assistant</strong>. Ask me anything about our 28+ products, prices in Rupees (₹), delivery timelines, order tracking, or returns!
+                    👋 Namaste! I am your <strong>ReshmaMart AI Shopping Assistant</strong>. Ask me anything about our 28+ products, prices in Rupees (₹), delivery timelines, order tracking, or returns!
                 </div>
                 <span class="chat-timestamp">Just now</span>
             </div>
@@ -350,7 +350,7 @@
         <!-- Typing Indicator -->
         <div id="chat-typing-indicator" class="chat-typing-indicator" style="display: none;">
             <span></span><span></span><span></span>
-            <small style="margin-left: 8px; color: #716875;">RubiniMart AI is typing...</small>
+            <small style="margin-left: 8px; color: #716875;">ReshmaMart AI is typing...</small>
         </div>
 
         <!-- Input Footer -->
@@ -368,7 +368,7 @@
     var chatApiBase = "${pageContext.request.contextPath}";
     var chatEndpoint = (chatApiBase ? chatApiBase : "") + "/api/chat";
 
-    window.openRubiniChat = function() {
+    window.openReshmaChat = function() {
         var modal = document.getElementById('chat-modal');
         if (modal) {
             modal.style.display = 'flex';
@@ -378,20 +378,20 @@
         }
     };
 
-    window.closeRubiniChat = function() {
+    window.closeReshmaChat = function() {
         var modal = document.getElementById('chat-modal');
         if (modal) {
             modal.style.display = 'none';
         }
     };
 
-    window.toggleRubiniChat = function() {
+    window.toggleReshmaChat = function() {
         var modal = document.getElementById('chat-modal');
         if (!modal) return;
         if (modal.style.display === 'none' || !modal.style.display) {
-            window.openRubiniChat();
+            window.openReshmaChat();
         } else {
-            window.closeRubiniChat();
+            window.closeReshmaChat();
         }
     };
 

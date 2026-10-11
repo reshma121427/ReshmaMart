@@ -1,7 +1,7 @@
-# D3: RubiniMart Place-Order Transaction Sequence Diagram
+# D3: reshmamart Place-Order Transaction Sequence Diagram
 
 ## Transactional Architecture
-The **Place-Order flow** in RubiniMart is engineered as an **ACID-compliant atomic transaction** managed via JDBC Connection controls (`setAutoCommit(false)`, `commit()`, `rollback()`). If inventory becomes insufficient or a database constraint fails, the entire transaction rolls back cleanly, preventing inventory leakage and inconsistent order states.
+The **Place-Order flow** in reshmamart is engineered as an **ACID-compliant atomic transaction** managed via JDBC Connection controls (`setAutoCommit(false)`, `commit()`, `rollback()`). If inventory becomes insufficient or a database constraint fails, the entire transaction rolls back cleanly, preventing inventory leakage and inconsistent order states.
 
 ---
 

@@ -1,16 +1,16 @@
-# RubiniMart — Capstone Final Evaluation Slide Deck
+# reshmamart — Capstone Final Evaluation Slide Deck
 
 **Anna University R2025 Semester 3 Capstone Evaluation**  
-**Project:** RubiniMart (`com.rubinimart`) | **Author:** Rubini  
-**Live URL:** [https://rubinimart.onrender.com](https://rubinimart.onrender.com)  
+**Project:** reshmamart (`com.reshmamart`) | **Author:** Rubini  
+**Live URL:** [https://reshmamart.onrender.com](https://reshmamart.onrender.com)  
 
 ---
 
 ### Slide 1: Title & Introduction
-- **Slide Title**: RubiniMart — Enterprise-Grade E-Commerce Platform with Modular AI Shopping Assistant
+- **Slide Title**: reshmamart — Enterprise-Grade E-Commerce Platform with Modular AI Shopping Assistant
 - **Presenter**: Rubini (Anna University R2025, Semester 3)
 - **Tech Stack**: Java 17 · Apache Tomcat 9.0.x · JDBC & HikariCP · H2 Database · Docker · Google Gemini AI
-- **Speaker Notes**: "Good morning, respected evaluators. Today I present RubiniMart, a full-stack multi-role e-commerce web platform engineered with strict 3-tier layering, ACID transactional checkout, robust security hardening, and an intelligent AI shopping assistant."
+- **Speaker Notes**: "Good morning, respected evaluators. Today I present reshmamart, a full-stack multi-role e-commerce web platform engineered with strict 3-tier layering, ACID transactional checkout, robust security hardening, and an intelligent AI shopping assistant."
 
 ---
 
@@ -19,7 +19,7 @@
   - Inadequate role boundaries between shoppers, vendors, and platform admins.
   - Race conditions and inventory overselling during concurrent checkouts.
   - Common web vulnerabilities: SQL Injection, plaintext passwords, session hijacking, XSS.
-- **RubiniMart Objectives**:
+- **reshmamart Objectives**:
   - Implement full shopping lifecycle (F1–F8) across Buyer, Seller, and Admin personas.
   - Ensure 100% ACID checkout integrity with atomic stock deduction and rollback.
   - Implement defense-in-depth security matching industrial benchmarks.
@@ -89,13 +89,13 @@
 - **Containerization**: Multi-stage `Dockerfile` (`maven:3.9.6-alpine` build + `eclipse-temurin:17-jre-alpine` runtime).
 - **Cloud Hosting**: Deployed on **Render** Cloud Platform with continuous deployment from GitHub `main`.
 - **Live Health API**: `GET /api/v1/health` &rarr; `{"status":"UP","db":"UP"}`.
-- **Public URL**: [https://rubinimart.onrender.com](https://rubinimart.onrender.com).
+- **Public URL**: [https://reshmamart.onrender.com](https://reshmamart.onrender.com).
 
 ---
 
 ### Slide 10: Conclusion & Q&A
 - **Key Takeaways**:
-  - RubiniMart fulfills 100% of the Anna University R2025 Semester 3 Capstone requirements across all 11 weeks.
+  - reshmamart fulfills 100% of the Anna University R2025 Semester 3 Capstone requirements across all 11 weeks.
   - Production-ready, fully deployed, and verified against live cloud traffic.
 - **Live Demo Credentials**:
   - Buyer: `john.buyer@mart.com` / `Buyer@123`

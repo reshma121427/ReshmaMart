@@ -1,22 +1,22 @@
-# RubiniMart — Enterprise-Grade E-Commerce Platform & AI Assistant
+# reshmamart — Enterprise-Grade E-Commerce Platform & AI Assistant
 
 [![Java 17](https://img.shields.io/badge/Java-17%20LTS-orange.svg)](https://openjdk.org/projects/jdk/17/)
 [![Tomcat](https://img.shields.io/badge/Apache%20Tomcat-9.0.x-blue.svg)](https://tomcat.apache.org/)
 [![License](https://img.shields.io/badge/License-Academic-green.svg)]()
-[![Deploy on Render](https://img.shields.io/badge/Render-Live-brightgreen)](https://rubinimart.onrender.com)
+[![Deploy on Render](https://img.shields.io/badge/Render-Live-brightgreen)](https://reshmamart.onrender.com)
 [![Build Status](https://img.shields.io/badge/Tests-30%20Passing-success.svg)]()
 
 > **Anna University R2025 Semester 3 Capstone Project**  
 > **Evaluation Window**: Jul 27 – Oct 10, 2026 (Kickoff to Final Review Complete)  
-> **Author**: Rubini (`com.rubinimart`)  
-> **Live Production URL**: [https://rubinimart.onrender.com](https://rubinimart.onrender.com)  
-> **GitHub Repository**: [https://github.com/Rubiniponnar/RubiniMart](https://github.com/Rubiniponnar/RubiniMart)  
+> **Author**: Rubini (`com.reshmamart`)  
+> **Live Production URL**: [https://reshmamart.onrender.com](https://reshmamart.onrender.com)  
+> **GitHub Repository**: [https://github.com/Rubiniponnar/reshmamart](https://github.com/Rubiniponnar/reshmamart)  
 
 ---
 
 ## Executive Overview
 
-**RubiniMart** is an enterprise-grade multi-role e-commerce web platform built with **Java Servlets**, **JDBC**, and **Apache Tomcat 9.0.x**. It implements strict 3-tier MVC architecture, role-based access control (Buyer, Seller, Admin), ACID atomic checkout transactions, persistent storage via H2 in server/file mode, comprehensive input validation, full security hardening, and an embedded modular **AI Shopping Assistant (O4)**.
+**reshmamart** is an enterprise-grade multi-role e-commerce web platform built with **Java Servlets**, **JDBC**, and **Apache Tomcat 9.0.x**. It implements strict 3-tier MVC architecture, role-based access control (Buyer, Seller, Admin), ACID atomic checkout transactions, persistent storage via H2 in server/file mode, comprehensive input validation, full security hardening, and an embedded modular **AI Shopping Assistant (O4)**.
 
 ---
 
@@ -52,7 +52,7 @@ flowchart TD
     end
 
     subgraph Storage ["Storage Layer"]
-        H2[("H2 Database (Persistent File Mode: ./data/rubinimart)")]
+        H2[("H2 Database (Persistent File Mode: ./data/reshmamart)")]
     end
 
     Client --> Filter
@@ -73,7 +73,7 @@ flowchart TD
 | :--- | :--- | :--- | :--- |
 | **Language** | Java | 17 (LTS) | Core backend programming language |
 | **Web Container** | Apache Tomcat | 9.0.87 (`javax.servlet.*`) | Servlet 4.0 & JSP 2.3 container |
-| **Database** | H2 Database | 2.2.224 | Persistent file mode (`./data/rubinimart`) & test in-memory |
+| **Database** | H2 Database | 2.2.224 | Persistent file mode (`./data/reshmamart`) & test in-memory |
 | **Connection Pool** | HikariCP | 5.1.0 | High-performance JDBC connection pooling |
 | **Security / Hashing**| jBCrypt | 0.4 | Adaptive salt password hashing (12 rounds) |
 | **JSON Serialization**| Google Gson | 2.10.1 | JSON responses under `/api/` & Chatbot API |
@@ -115,8 +115,8 @@ flowchart TD
 
 ### 1. Clone & Test
 ```bash
-git clone https://github.com/Rubiniponnar/RubiniMart.git
-cd RubiniMart
+git clone https://github.com/Rubiniponnar/reshmamart.git
+cd reshmamart
 mvn clean test
 ```
 *Executes all 30 unit & integration tests (`BUILD SUCCESS`).*

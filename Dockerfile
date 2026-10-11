@@ -32,7 +32,7 @@ RUN apk add --no-cache curl
 COPY --from=builder /app/target/classes ./target/classes
 COPY --from=builder /app/target/dependency ./target/dependency
 COPY --from=builder /app/src/main/webapp ./src/main/webapp
-COPY --from=builder /app/target/RubiniMart ./target/RubiniMart
+COPY --from=builder /app/target/reshmamart ./target/reshmamart
 
 # Create persistent storage folder for H2 database
 RUN mkdir -p /app/data
@@ -46,4 +46,4 @@ HEALTHCHECK --interval=30s --timeout=5s --start-period=30s --retries=3 \
   CMD curl -f http://localhost:${PORT}/api/v1/health || exit 1
 
 # Launch the Embedded Tomcat Server
-CMD ["java", "-cp", "target/classes:target/dependency/*", "com.rubinimart.runner.EmbeddedTomcatServer"]
+CMD ["java", "-cp", "target/classes:target/dependency/*", "com.reshmamart.runner.EmbeddedTomcatServer"]

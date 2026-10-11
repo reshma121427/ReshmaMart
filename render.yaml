@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: rubinimart
+    name: reshmamart
     runtime: docker
     plan: free
     region: oregon

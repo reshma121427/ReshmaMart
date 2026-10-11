@@ -1,4 +1,4 @@
-# RubiniMart — Sprint Retrospective Log (RETRO.md)
+# reshmamart — Sprint Retrospective Log (RETRO.md)
 
 This log records weekly sprint retrospectives across the 11-week Anna University R2025 Capstone development cycle (Jul 24 – Oct 10, 2026).
 
